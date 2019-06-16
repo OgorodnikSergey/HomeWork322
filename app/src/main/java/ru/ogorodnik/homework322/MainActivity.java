@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void hideLayout () {
 
-        FrameLayout frameLayout = findViewById(R.id.FrameLayout);
+        FrameLayout frameLayout = findViewById(R.id.FrameLayoutGigits);
         if (inj == true) {
             frameLayout.setVisibility(View.GONE);
             inj = false;
